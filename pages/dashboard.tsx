@@ -14,7 +14,7 @@ const DashboardPage: React.FC = () => {
       router.replace('/login'); 
     } catch (error) {
       console.error("Error al cerrar sesión:", error);
-      alert("No se pudo cerrar sesión. Inténtalo de nuevo.");
+      console.log("No se pudo cerrar sesión. Inténtalo de nuevo.");
     }
   };
   return (

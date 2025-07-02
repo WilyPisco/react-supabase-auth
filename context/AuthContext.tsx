@@ -69,7 +69,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     });
     if (error) throw error;
     if (data.user && !data.session) {
-        alert('¡Registro exitoso! Por favor, revisa tu correo para confirmar tu cuenta.');
+        console.log('¡Registro exitoso! Por favor, revisa tu correo para confirmar tu cuenta.');
     }
   };
 
