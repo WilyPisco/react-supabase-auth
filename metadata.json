@@ -1,0 +1,6 @@
+
+{
+  "name": "React Supabase Auth Starter",
+  "description": "Un kit de inicio de frontend para un sistema de autenticación moderno usando React y Tailwind CSS, diseñado para conectarse a un backend de Supabase.",
+  "requestFramePermissions": []
+}
