@@ -20,7 +20,7 @@ const DashboardPage: React.FC = () => {
   return (
     <Card>
       <div className="w-full max-w-md text-center space-y-6">
-        <h1 className="text-3xl font-bold text-white">Bienvenido al Panel</h1>
+        <h1 className="text-3xl font-bold text-white">Bienvenido al Panel - Autenticación con Supabase - Arquitectura Tecnológica en la nube</h1>
         {usuario && (
           <div className="text-gray-300">
             <p className="text-lg">
